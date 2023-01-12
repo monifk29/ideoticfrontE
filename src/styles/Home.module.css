@@ -1,0 +1,54 @@
+.contain{
+    border: 1px solid white;
+}
+
+.mini{
+    border: 1px solid white;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (min-width: 1000px) {
+    .mini{
+grid-template-columns: repeat(3, 1fr);
+
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .mini{
+grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+    @media screen and (max-width: 400px) {
+        .mini{
+    grid-template-columns: repeat(1, 1fr);
+    
+        }
+  }
+
+
+
+.card{
+    border: 1px solid white;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    box-shadow: white 0px 6px 12px -2px, white 0px 3px 7px -3px;
+}
+
+p{
+    background-color: white;
+     color: teal;
+}
+
+.heading{
+    margin: auto;
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    
+}

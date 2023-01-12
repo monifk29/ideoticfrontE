@@ -1,0 +1,42 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: teal;
+}
+
+.contain {
+  border: 1px solid white;
+  width: 35%;
+  height: 350px;
+  margin: auto;
+  margin-top: 6%;
+  background-color: white;
+  box-shadow: white 0px 20px 20px,
+    white 0px -4px 10px, white 0px 4px 6px,
+    white  0px 8px 7px, white 0px 2px 5px;
+}
+
+h2 {
+  color: teal;
+  margin-top: 10%;
+  background-color: white;
+}
+input {
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+button {
+  margin-top: 4%;
+  padding: 7px 15px;
+  color: teal;
+  background-color: white;
+  border: 1px solid teal;
+}
+
+button:hover {
+  background-color: teal;
+  color: white;
+}

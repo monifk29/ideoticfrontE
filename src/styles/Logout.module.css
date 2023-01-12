@@ -1,0 +1,13 @@
+.btn {
+   margin: auto;
+   margin-right: 20px;
+    padding: 7px 15px;
+    color: teal;
+    background-color: white;
+    border: 1px solid teal;
+  }
+  
+  .btn:hover {
+    background-color: teal;
+    color: white;
+  }
